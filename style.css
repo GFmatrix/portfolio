@@ -1,0 +1,73 @@
+@font-face {font-family: 'M1';src: url('MPLUS1Code-Regular.ttf');}
+.nav-link{border-bottom: solid 2px transparent;border-top:transparent 2px}
+.nav-link:hover{border-bottom: 2px rgb(155, 155, 155) solid;}
+.hv100{height: 100vh;}
+body{font-family: 'M1', sans-serif;}
+.name{text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff;}
+.mbt10{margin-top: 2em;margin-bottom: 2em;}
+.ddd{opacity: 0;transition: 0.5s;}
+.dddd{display: flex;}
+.text-light2{color: rgb(100, 100, 100);}
+.bg-light2{color: rgb(100, 100, 100);}
+.str_vn{animation-name: animml;animation-duration: 2s;animation-iteration-count: infinite;animation-timing-function: linear;}
+.anm-adv{
+  animation: 6s linear advanm;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+
+}
+.neon{box-shadow: 0 0 7px 0 #fff;}
+.tx-neon{text-shadow: 0 0 7px #fff;}
+@keyframes advanm {
+  0%{transform: rotate(0deg);}
+  5%{transform: rotate(90deg);}
+  20%{transform: rotate(90deg);}
+  25%{transform: rotate(180deg);}
+  45%{transform: rotate(180deg);}
+  50%{transform: rotate(270deg);}
+  70%{transform: rotate(270deg);}
+  75%{transform: rotate(360deg);}
+  100%{transform: rotate(360deg);}
+}
+@keyframes animml{
+  0%{transform: translateY(0px);}
+  20%{transform: translateY(5px);}
+  80%{transform: translateY(-5px);}
+  100%{transform: translateY(0px);}
+}
+.text-gray{color: #999;}
+.text-dark-gray{color: #444;}
+.start-40{transform: translateX(25%);bottom: 10px;}
+.pb-6 {padding-bottom: 6rem !important;}
+.h-place{
+  position: sticky;
+}
+.z-0{z-index: 0;}
+.z-5{z-index: 5;}
+.s1{z-index: 0;}
+.s2{position: absolute;z-index: 99;top: 0;left: 0;right: 0;bottom: 0;}
+@media (min-width: 768px) {
+  .col-md-35{flex: 0 0 auto;width: 29.16666666%;}
+  .w-md-75 {width: 75% !important;}
+  .h-md-75 {height: 75% !important;}
+
+}
+@media (max-width: 768px) {.position-sm-absolute{position: absolute;}}
+@media (min-width: 1200px) {
+  .w-lg-100 {width: 100% !important;}
+  .w-lg-75 {width: 75% !important;}
+  .w-lg-25 {width: 25% !important;}
+  .h-lg-100 {height: 100% !important;}
+}
+@media (max-width: 576px) {
+  .position-sm-absolute{position: absolute;}
+}
+@media (min-width: 992px) {
+  .col-lg-35 {flex: 0 0 auto;width: 29.16666666%;}
+}
+.top-25 {
+  top: 25% !important;
+}
+.col-35{flex: 0 0 auto;width: 29.16666666%;}
+.brd-onc{box-sizing: border-box;transition: .3s;border: #000 solid .1em;}
+.brd-onc:hover{border: #fff solid .1em;}
